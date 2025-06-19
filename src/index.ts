@@ -20,6 +20,11 @@ import commentRoutes from './routes/commentRoutes';     // Comments on posts
 import dotenv from 'dotenv';                            // Environment variable management
 import cors from 'cors';                                // Cross-Origin Resource Sharing
 import { seedAdminUser } from './utils/seedAdmin';      // Create default admin user
+// import { PrismaClient } from '@prisma/client';  
+
+
+
+
 
 // Load environment variables from .env file (database URL, JWT secret, etc.)
 dotenv.config();
