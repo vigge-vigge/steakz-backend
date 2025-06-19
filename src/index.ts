@@ -36,7 +36,7 @@ const port = 3001; // Server will run on localhost:3001
 // === MIDDLEWARE SETUP ===
 // CORS: Allow frontend (React) to communicate with backend from different port
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'https://myapp-frontend.onrender.com'
+  origin: process.env.FRONTEND_URL || 'https://steakz-frontend-a492.onrender.com'
 }));
 // JSON Parser: Parse incoming JSON request bodies
 app.use(express.json());
